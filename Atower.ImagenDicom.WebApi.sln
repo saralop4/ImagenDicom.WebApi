@@ -23,8 +23,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atower.ImagenDicom.WebApi.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atower.ImagenDicom.WebApi.Dominio.Interfaces", "Atower.ImagenDicom.WebApi.Dominio.Interfaces\Atower.ImagenDicom.WebApi.Dominio.Interfaces.csproj", "{81216014-4B4E-4E03-90ED-38ADE01E05EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atower.ImagenDicom.WebApi.Infraestrutura.Configuraciones", "Atower.ImagenDicom.WebApi.Infraestrutura.Configuraciones\Atower.ImagenDicom.WebApi.Infraestrutura.Configuraciones.csproj", "{14572706-EC0B-44F0-975C-4AAA350BA462}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atower.ImagenDicom.WebApi.Infraestrutura.Repositorios", "Atower.ImagenDicom.WebApi.Infraestrutura.Repositorios\Atower.ImagenDicom.WebApi.Infraestrutura.Repositorios.csproj", "{0333829E-133D-4664-B844-9C99FCA0FCE0}"
 EndProject
 Global
@@ -53,10 +51,6 @@ Global
 		{81216014-4B4E-4E03-90ED-38ADE01E05EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81216014-4B4E-4E03-90ED-38ADE01E05EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81216014-4B4E-4E03-90ED-38ADE01E05EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14572706-EC0B-44F0-975C-4AAA350BA462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14572706-EC0B-44F0-975C-4AAA350BA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14572706-EC0B-44F0-975C-4AAA350BA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14572706-EC0B-44F0-975C-4AAA350BA462}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0333829E-133D-4664-B844-9C99FCA0FCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0333829E-133D-4664-B844-9C99FCA0FCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0333829E-133D-4664-B844-9C99FCA0FCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -71,7 +65,6 @@ Global
 		{5F28962B-7DD1-48B2-899C-6C00BFCD0815} = {B404E8E9-4D20-41DA-B7E4-97FC122306A8}
 		{42F7E52C-DFE0-415A-ABC2-AAC230658F93} = {A233A11A-8B2F-488F-B2A0-FC4DDD070B4C}
 		{81216014-4B4E-4E03-90ED-38ADE01E05EB} = {A233A11A-8B2F-488F-B2A0-FC4DDD070B4C}
-		{14572706-EC0B-44F0-975C-4AAA350BA462} = {C611E292-4F7E-4E4E-92D0-830A5166711B}
 		{0333829E-133D-4664-B844-9C99FCA0FCE0} = {C611E292-4F7E-4E4E-92D0-830A5166711B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

@@ -1,10 +1,9 @@
 ﻿using Atower.ImagenDicom.WebApi.Dominio.Modelos;
 
-namespace Atower.ImagenDicom.WebApi.Aplicacion.Interfaces;
+namespace Atower.ImagenDicom.WebApi.Dominio.Interfaces;
 
-public interface IDicomServicio
+public interface IDicomRepositorio
 {
     Task<DicomImage?> GetDicomImageAsync(string patientId, CancellationToken cancellationToken);
-    //Task SaveDicomImageAsync(byte[] image);
-
+   // Task SaveDicomImageAsync(byte[] image);
 }

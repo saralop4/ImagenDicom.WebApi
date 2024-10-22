@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="fo-dicom.Imaging.ImageSharp" Version="5.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Atower.ImagenDicom.WebApi.Dominio.Modelos\Atower.ImagenDicom.WebApi.Dominio.Modelos.csproj" />
   </ItemGroup>
 
